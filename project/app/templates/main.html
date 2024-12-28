@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    {% for content in contents %}
+
+        {{ content.title }}
+        {{ content.desc }}
+        
+    {% endfor %}
+{% endblock %}
+
